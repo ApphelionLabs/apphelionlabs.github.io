@@ -20,39 +20,19 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        /* Estilos para la cabecera gráfica */
-        .brand-header {
+        .header {
             text-align: center;
-            margin-bottom: 40px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #eee;
-        }
-        .aphelion-graphic {
-            max-width: 250px; /* Tamaño del gráfico */
-            height: auto;
-            margin-bottom: 20px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
+            margin-bottom: 30px;
         }
         h1 {
-            font-size: 32px; /* Un poco más grande para destacar */
+            font-size: 28px;
             color: #111;
             margin-bottom: 5px;
-            font-weight: 800;
-        }
-        .slogan {
-            font-size: 18px;
-            color: #0066cc; /* Color distintivo para el eslogan */
-            font-weight: 500;
-            font-style: italic; /* Le da un toque especial */
-            margin-bottom: 10px;
         }
         .subtitle {
             color: #666;
-            font-size: 14px;
+            font-size: 16px;
         }
-        /* Estilos del resto del texto */
         p {
             font-size: 15px;
             color: #444;
@@ -90,33 +70,11 @@
 </head>
 <body>
     <div class="container">
-        <!-- NUEVA CABECERA GRÁFICA Y DE MARCA -->
-        <div class="brand-header">
-            <!-- Acá va tu imagen del afelio. Te sugiero un SVG o PNG transparente -->
-            <!-- La imagen debe estar en la misma carpeta que el index.html -->
-            <!-- Ejemplo: <img src="aphelion-diagram.svg" alt="Diagrama del Afelio" class="aphelion-graphic"> -->
-            
-            <!-- Como no tengo tu imagen, te pongo un marcador de posición visual que puedes reemplazar -->
-            <svg class="aphelion-graphic" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-                <!-- Sol central -->
-                <circle cx="40" cy="50" r="15" fill="#ffcc00" />
-                <!-- Órbita elíptica -->
-                <ellipse cx="110" cy="50" rx="80" ry="45" stroke="#999" fill="none" stroke-width="1" stroke-dasharray="5 5"/>
-                <!-- Planeta en el afelio (punto lejano) -->
-                <circle cx="185" cy="50" r="5" fill="#333" />
-                <!-- Línea de distancia -->
-                <line x1="55" y1="50" x2="178" y2="50" stroke="#0066cc" stroke-width="1" stroke-dasharray="3 3"/>
-                <!-- Texto "Afelio" en la línea -->
-                <text x="110" y="45" text-anchor="middle" font-size="10" fill="#0066cc">Afelio</text>
-            </svg>
-
-            <!-- Título y subtítulos -->
+        <div class="header">
             <h1>ApphelionLabs</h1>
-            <div class="slogan">Apphelion: Far beyond the Sun</div>
             <div class="subtitle">Independent Mobile Application Development</div>
         </div>
-        <!-- FIN DE LA NUEVA CABECERA -->
-
+        
         <p>At <strong>ApphelionLabs</strong>, we believe mobile software has become unnecessarily bloated, friction-heavy, and packed with hidden surprises. That is why we build things differently: clean, straightforward applications focused on real productivity and entertainment.</p>
         
         <p>Our philosophy is built upon uncompromised principles:</p>
