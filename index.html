@@ -47,8 +47,31 @@
             color: #444;
             margin-bottom: 10px;
         }
+        .apps-section {
+            margin-top: 35px;
+            margin-bottom: 25px;
+        }
+        .app-card {
+            background: #fdfdfd;
+            border: 1px solid #eaeaea;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+        .app-card h3 {
+            margin-top: 0;
+            margin-bottom: 8px;
+            font-size: 18px;
+            color: #111;
+        }
+        .app-links {
+            margin-top: 10px;
+            font-size: 14px;
+            display: flex;
+            gap: 15px;
+        }
         .links {
-            margin-top: 40px;
+            margin-top: 30px;
             border-top: 1px solid #eee;
             padding-top: 20px;
         }
@@ -71,10 +94,11 @@
 <body>
     <div class="container">
         <div class="header">
-<img src="apphelion_landscape.jpg" alt="Apphelion Landscape" style="width:100%; max-height:200px; object-fit:cover; border-radius:8px; margin-bottom:15px;">
+            <img src="apphelion_landscape.jpg" alt="Apphelion Landscape" style="width:100%; max-height:200px; object-fit:cover; border-radius:8px; margin-bottom:15px;">
             <h1>ApphelionLabs</h1>
             <div class="subtitle">Independent Mobile Application Development</div>
         </div>
+        
         <p>At <strong>ApphelionLabs</strong>, we believe mobile software has become unnecessarily bloated, friction-heavy, and packed with hidden surprises. That is why we build things differently: clean, straightforward applications focused on real productivity and entertainment.</p>
         
         <p>Our philosophy is built upon uncompromised principles:</p>
@@ -86,8 +110,31 @@
             <li><strong>Total Transparency:</strong> No weird background behaviors or fine print. Just honest tools that work, period.</li>
         </ul>
 
+        <div class="apps-section">
+            <p><strong>Our Applications:</strong></p>
+            
+            <!-- Dual Planner -->
+            <div class="app-card">
+                <h3>Dual Planner</h3>
+                <p>A retro-inspired 3-month view calendar and task-agenda designed to give you complete macro perspective over your schedule.</p>
+                <div class="app-links">
+                    <a href="dual-planner/">View App & Details</a>
+                    <a href="dual-planner/privacy-policy/">Privacy Policy</a>
+                </div>
+            </div>
+
+            <!-- Reader Tracker -->
+            <div class="app-card">
+                <h3>Reader Tracker</h3>
+                <p>A clean freemium companion application built to help avid readers effortlessly track titles, authors, and reading progress.</p>
+                <div class="app-links">
+                    <a href="privacy-policy/">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+
         <div class="links">
-            <p>Looking for legal information? Check our <a href="./privacy-policy/">Privacy Policy</a>.</p>
+            <p>Looking for general legal information? Check our main <a href="./privacy-policy/">Privacy Policy</a>.</p>
         </div>
 
         <div class="footer">
